@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en">
+
+<h1>Hi this is Profile Page by <%= user.name %></h1>
+<ul><% for(var i=0; i<user.skills.length; i++) { %>
+    <li><%= user.skills[i] %></li>
+ <% } %></ul>
+
+</html>
